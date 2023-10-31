@@ -1,16 +1,27 @@
-# tvra5
+## Protótipos de Telas
 
-A new Flutter project.
+Nesse arquivo apresento os protótipos de telas da aplicação, sendo um exemplo o modelo no Figma e o outro no código.
 
-## Getting Started
+## Tela de Splash
 
-This project is a starting point for a Flutter application.
+<img src="assets/readme/fitPlan_splashscreen.png" width="150"> 
+<img src="assets/readme/fitPlan_splashscreen-figma.png" width="150">
 
-A few resources to get you started if this is your first Flutter project:
+## Tela de Login
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img src="assets/readme/fitPlan_login.png" width="150"> 
+<img src="assets/readme/fitPlan_login-figma.png" width="150">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tela de Cadastro
+
+<img src="assets/readme/fitPlan_cadastro.png" width="150"> 
+<img src="assets/readme/fitPlan_cadastro-figma.png" width="150">
+
+## Tela Inicial (Home)
+
+<img src="assets/readme/fitPlan_home.png" width="150"> 
+<img src="assets/readme/fitPlan_home-figma.png" width="150">   
+
+## Continuação do Projeto
+
+A continuação desse projeto será realizada em: [Link para outro repositório](https://github.com/PRoberto04/projDevMob)

@@ -1,5 +1,7 @@
+import 'package:fit_plain/views/home_page.dart';
+import 'package:fit_plain/views/login_page.dart';
 import 'package:flutter/material.dart';
-import 'login_page.dart';
+
 
 class CadastroPage extends StatelessWidget {
   const CadastroPage({super.key});
@@ -38,6 +40,7 @@ class CadastroPage extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 TextField(
                   decoration: InputDecoration(
@@ -65,14 +68,15 @@ class CadastroPage extends StatelessWidget {
             padding:
                 const EdgeInsets.symmetric(vertical: 10.0, horizontal: 60.0),
             child: SizedBox(
-              child: Row(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      // Adicione a lógica de autenticação aqui
+                      // Lógica de autenticação
                       Navigator.of(context).pushReplacement(
                         MaterialPageRoute(
-                            builder: (context) => const CadastroPage()),
+                            builder: (context) => const HomePage()),
                       );
                     },
                     child: const Text(

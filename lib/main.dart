@@ -1,8 +1,8 @@
 import 'package:fit_plain/transition_route_observer.dart';
 import 'package:fit_plain/views/login_page.dart';
+import 'package:fit_plain/views/splash_screen.dart';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 void main() {
   runApp(const MyApp());
@@ -54,10 +54,12 @@ class MyApp extends StatelessWidget {
 
       //Navegação
       navigatorObservers: [TransitionRouteObserver()],
-      initialRoute: LoginPage.routeName,
+      initialRoute: '/splah',
       routes: {
+        '/splah': (context) => const SplashScreen(),
         LoginPage.routeName: (context) => const LoginPage(),
       },
+
     );
   }
 }
